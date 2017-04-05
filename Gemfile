@@ -61,6 +61,7 @@ gem 'autoprefixer-rails'
 group :development, :test do
   gem 'rspec-rails'
   gem 'pry-rails'
+  gem 'pry-byebug'
   gem 'fuubar'
   gem 'fabrication'
   gem 'i18n-tasks', '~> 0.9.6'
