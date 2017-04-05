@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+gcloud beta sql connect mastodon --user=postgres
