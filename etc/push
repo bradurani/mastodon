@@ -1,0 +1,2 @@
+#!//usr/bin/env bash
+gcloud docker -- push gcr.io/mastodon-163707/web:latest
