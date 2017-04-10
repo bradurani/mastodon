@@ -2,7 +2,7 @@
   .wrapper {
     max-width: 600px;
     margin: 0 auto;
-    color: $color3;
+    color: black; /* $color3; */
     padding-top: 50px;
     padding-bottom: 50px;
 
@@ -98,12 +98,13 @@
     margin-bottom: 20px;
 
     .info {
-      float: right;
-      text-align: right;
+      // float: right;
+      text-align: center;
       line-height: 36px;
+      background-color: violet;
 
       a {
-        color: $color3;
+        color: black;
         text-decoration: underline;
       }
     }
