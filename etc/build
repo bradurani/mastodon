@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+docker build -t gcr.io/mastodon-163707/web:latest .
