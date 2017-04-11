@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-gcloud compute --project "mastodon-163707" ssh --zone "us-central1-a" "redis-mastodon-vm"
+gcloud compute --project "mastodon-163707" ssh --zone "us-central1-a" "redis-1-vm"
