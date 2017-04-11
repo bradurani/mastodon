@@ -81,6 +81,7 @@ GEM
     bullet (5.5.1)
       activesupport (>= 3.0.0)
       uniform_notifier (~> 1.10.0)
+    byebug (9.0.6)
     capistrano (3.8.0)
       airbrussh (>= 1.0.0)
       i18n
@@ -271,6 +272,9 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    pry-byebug (3.4.2)
+      byebug (~> 9.0)
+      pry (~> 0.10)
     pry-rails (0.3.6)
       pry (>= 0.10.4)
     public_suffix (2.0.5)
@@ -496,6 +500,7 @@ DEPENDENCIES
   paperclip-av-transcoder
   pg
   pghero
+  pry-byebug
   pry-rails
   puma
   rabl
