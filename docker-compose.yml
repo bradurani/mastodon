@@ -3,9 +3,16 @@ services:
   # db:
   #   restart: always
   #   image: postgres:alpine
+### Uncomment to enable DB persistance
+#    volumes:
+#      - ./postgres:/var/lib/postgresql/data
+  #
   # redis:
   #   restart: always
   #   image: redis:alpine
+### Uncomment to enable REDIS persistance
+#    volumes:
+#      - ./redis:/data
   web:
     restart: always
     build: .
@@ -20,6 +27,7 @@ services:
     volumes:
       - ./public/assets:/mastodon/public/assets
       - ./public/system:/mastodon/public/system
+
   streaming:
     restart: always
     build: .
