@@ -36,4 +36,6 @@ RUN BUILD_DEPS=" \
 
 COPY . /mastodon
 
+RUN cp /etc/ssl/certs/ca-certificates.crt $(ruby -ropenssl -e 'puts OpenSSL::X509::DEFAULT_CERT_FILE')
+
 # VOLUME /mastodon/public/system /mastodon/public/assets
