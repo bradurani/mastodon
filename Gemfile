@@ -63,6 +63,7 @@ gem 'browserify-rails'
 gem 'autoprefixer-rails'
 
 gem 'secure_headers'
+gem 'bugsnag'
 
 group :development, :test do
   gem 'rspec-rails'
