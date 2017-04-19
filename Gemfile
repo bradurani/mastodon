@@ -62,6 +62,8 @@ gem 'react-rails'
 gem 'browserify-rails'
 gem 'autoprefixer-rails'
 
+gem 'secure_headers'
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'pry-rails'
