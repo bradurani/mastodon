@@ -34,11 +34,11 @@ SecureHeaders::Configuration.default do |config|
     font_src: %w('self' data:),
     form_action: %w('self'),
     frame_ancestors: %w('none'),
-    img_src: %w(https://somewhy.s3-us-west-1.amazonaws.com www.google-analytics.com 'self' data:),
+    img_src: %w(https://somewhy.s3-us-west-1.amazonaws.com 'self' data:),
     media_src: %w(https://somewhy.s3-us-west-1.amazonaws.com),
     object_src: %w('none'),
     plugin_types: %w(application/x-shockwave-flash),
-    script_src: %w('self' www.google-analytics.com),
+    script_src: %w('self'),
     style_src: %w('self'),
     # style_src: %w('unsafe-inline' 'self'),
     upgrade_insecure_requests: Rails.env == 'production', # see https://www.w3.org/TR/upgrade-insecure-requests/
